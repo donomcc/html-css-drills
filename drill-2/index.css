@@ -1,0 +1,69 @@
+.div1 {
+    border-style: solid;
+    height: 300px;
+    position: relative;
+}
+
+.purpleBox {
+    background-color: blueviolet;
+    height: 200px;
+    width: 50px;
+    position: absolute;
+    left: 20px;
+    top: 80px;
+}
+
+.greenBox {
+    background-color: green;
+    height: 250px;
+    width: 500px;
+    position: absolute;
+    left: 150px;
+    top: 30px;
+}
+
+.blueCircle {
+    background-color: rgb(176, 223, 224);
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 700px;
+}
+
+.div2 {
+    border-style: dotted;
+    height: 300px;
+    position: relative;
+}
+
+.yellowBox {
+    background-color: rgb(228, 232, 194);
+    height: 65%;
+    width: 90%;
+    margin: auto auto;
+    margin-top: 50px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.div3 {
+    margin: auto auto;
+    position: relative;
+    width: 800px;
+    height: 500px;
+    box-shadow: 10px 10px 25px rgb(194, 194, 194);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; 
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: blue;
+    font-size: xx-large;
+    font-weight: bold;
+}
